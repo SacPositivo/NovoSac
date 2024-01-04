@@ -1,16 +1,15 @@
-// Função para mudar o curso
 function mudar(cursoe) {
-    
     let cursos = [
         {
             curso: "Extensivo",
             info: "O curso <b>extensivo</b> deve começar em 19/02 e acompanhar os alunos até o vestibular da UFPR no fim do ano.<br> Nossas aulas são de segunda a sexta, 6 aulas diárias de 45 minutos cada. O curso conta com orientação vocacional, planejamento de estudos, que ajudam o aluno a organizar a rotina de acordo com os seus horários disponíveis, professores assistentes no contraturno, para sanar dúvidas e auxiliar nas suas necessidades específicas e uma plataforma de redações, sem limites nos números de redações postadas com devolutiva. Além disso, o material didático, que já está incluso no valor da mensalidade, é de autoria dos nossos próprios professores.",
-            unidades :"<b>Disponível nas seguintes unidades:</b><br><br> <b>Vicente Machado:</b><br> Manhã (7:10 á 12:20)<br>Tarde (13:30 á 18:30)<br>Noite (18:45 á 23:00)<br><br><b>Hauer:</b><br>Manhã (7:35 á 12:35)<br><br><b>Boa Vista:</b><br>Manhã (7:15 á 12:25)"
+            info2: "bah e bah e quando bah né",
+            unidades: "<b>Disponível nas seguintes unidades:</b><br><br> <b>Vicente Machado:</b><br> Manhã (7:10 á 12:20)<br>Tarde (13:30 á 18:30)<br>Noite (18:45 á 23:00)<br><br><b>Hauer:</b><br>Manhã (7:35 á 12:35)<br><br><b>Boa Vista:</b><br>Manhã (7:15 á 12:25)"
         },
         {
             curso: "Terceirão",
             info: "O <b>terceirão</b> deve começar em 19/02 e acompanhar os alunos até o vestibular da UFPR no fim do ano.<br> Nossas aulas são de segunda a sexta, 6 aulas diárias de 45 minutos cada. O curso conta com orientação vocacional, planejamento de estudos, que ajudam o aluno a organizar a rotina de acordo com os seus horários disponíveis, professores assistentes no contraturno, para sanar dúvidas e auxiliar nas suas necessidades específicas e uma plataforma de redações, sem limites nos números de redações postadas com devolutiva. Além disso, o material didático, que já está incluso no valor da mensalidade, é de autoria dos nossos próprios professores.",
-            unidades :"<b>Disponível nas seguintes unidades:</b><br><br> <b>Vicente Machado:</b><br> Manhã (7:10 á 12:20)<br>Tarde (13:30 á 18:30)<br>Noite (18:45 á 23:00)<br><br><b>Hauer:</b><br>Manhã (7:35 á 12:35)<br><br><b>Boa Vista:</b><br>Manhã (7:15 á 12:25)"
+            unidades: "<b>Disponível nas seguintes unidades:</b><br><br> <b>Vicente Machado:</b><br> Manhã (7:10 á 12:20)<br>Tarde (13:30 á 18:30)<br>Noite (18:45 á 23:00)<br><br><b>Hauer:</b><br>Manhã (7:35 á 12:35)<br><br><b>Boa Vista:</b><br>Manhã (7:15 á 12:25)"
         },
         {
             curso: "Integral",
@@ -20,63 +19,41 @@ function mudar(cursoe) {
         {
             curso: "SemiExtensivo",
             info: "O semiextensivo terá aproximadamente 05 meses de aula.<br>Que serão:<br><br><b>14</b> semanas de conteúdo<br><b>01</b> semana de revisão para a UFPR (1ª fase)<br><b>03</b> semanas de revisão para o ENEM<br><b>03</b> semanas de preparação para as discursivas UFPR (2ª fase)<br>Também teremos 04 simulados, sendo 02 para a 1ª fase da UFPR, 01 para a 2ª fase e 01 para o ENEM.",
-            unidades :"<b>Disponível nas seguintes unidades:</b><br><br> <b>Vicente Machado:</b><br> Manhã (7:10 á 12:20)<br>Tarde (13:30 á 18:30)<br>Noite (18:45 á 23:00)<br><br><b>Hauer:</b><br>Manhã (7:35 á 12:35)<br><br><b>Boa Vista:</b><br>Manhã (7:15 á 12:25)"
+            unidades: "<b>Disponível nas seguintes unidades:</b><br><br> <b>Vicente Machado:</b><br> Manhã (7:10 á 12:20)<br>Tarde (13:30 á 18:30)<br>Noite (18:45 á 23:00)<br><br><b>Hauer:</b><br>Manhã (7:35 á 12:35)<br><br><b>Boa Vista:</b><br>Manhã (7:15 á 12:25)"
         },
         {
             curso: "SuperIntensivo",
             info: "O semiextensivo terá aproximadamente 05 meses de aula.<br>Que serão:<br><br><b>14</b> semanas de conteúdo<br><b>01</b> semana de revisão para a UFPR (1ª fase)<br><b>03</b> semanas de revisão para o ENEM<br><b>03</b> semanas de preparação para as discursivas UFPR (2ª fase)<br>Também teremos 04 simulados, sendo 02 para a 1ª fase da UFPR, 01 para a 2ª fase e 01 para o ENEM.",
-            unidades :"<b>Disponível nas seguintes unidades:</b><br><br> <b>Vicente Machado:</b><br> Manhã (7:10 á 12:20)<br>Tarde (13:30 á 18:30)<br>Noite (18:45 á 23:00)<br><br><b>Hauer:</b><br>Manhã (7:35 á 12:35)<br><br><b>Boa Vista:</b><br>Manhã (7:15 á 12:25)"
+            unidades: "<b>Disponível nas seguintes unidades:</b><br><br> <b>Vicente Machado:</b><br> Manhã (7:10 á 12:20)<br>Tarde (13:30 á 18:30)<br>Noite (18:45 á 23:00)<br><br><b>Hauer:</b><br>Manhã (7:35 á 12:35)<br><br><b>Boa Vista:</b><br>Manhã (7:15 á 12:25)"
+        },
+        {
+            curso: "Integral",
+            info: "",
+            unidades: ""
         }
     ];
-    
-    
-    let mudarDiv = document.getElementById('mudar');
-    let cardoptions = document.getElementById('cardoptions')
-    let info = document.getElementById('infocursosdiv')
-    let infocurso1 = document.getElementById('infoCurso1')
-    let infocurso2 = document.getElementById('infoCurso2')
-    let button = document.getElementById('volta');
-    
-        for (let i = 0; cursoe != cursos.curso; i++) {
-            if (cursos[i].curso === cursoe) {
-                mudarDiv.innerHTML = cursos[i].curso;
-                cardoptions.style.display = 'none'
-                info.style.display = 'block'
-                if(cursos[i].unidades != 0){
-                    infocurso2.innerHTML = cursos[i].unidades
-                }else{
-                    infocurso2.style.display = "none"
+
+    let infoArea = document.getElementById('info-area');
+    let teamArea = document.getElementById('team-area');
+
+    //texts
+    let infoTitle = document.getElementById('info-title');
+    let infoOne = document.getElementById('info-one');
+    let infoTwo = document.getElementById('info-two');
+    let cards = document.getElementsByClassName('custom-card');
+
+    for (let i = 0; i < cursos.length; i++) {
+        if (cursos[i].curso === cursoe) {
+            if (cursoe !== 'Extensivo' && cursoe !== 'Terceirão') {
+                for (let card of cards) {
+                    card.style.display = 'none';
                 }
-                infocurso1.innerHTML = cursos[i].info
-                button.style.display = 'block'
-                break;
             }
+            infoArea.style.display = 'block';
+            teamArea.style.display = 'none';
+            infoTitle.innerHTML = cursoe;
+            infoOne.innerHTML = cursos[i].info;
+            infoTwo.innerHTML = cursos[i].info2;
         }
     }
-    
-    
-    function voltar(){
-        
-    let mudarDiv = document.getElementById('mudar');
-    let cardoptions = document.getElementById('cardoptions')
-    let info = document.getElementById('infocursosdiv')
-    let infocurso1 = document.getElementById('infoCurso1')
-    let button = document.getElementById('volta');
-    
-    
-    
-    mudarDiv.textContent = 'Informações sobre tudo';
-    cardoptions.style.display = ''
-    info.style.display = ''
-    infocurso1.textContent = ''
-    button.style.display = ''
-    
-    
-    }
-    
-    
-     
-    
-    
-    
-    
+}

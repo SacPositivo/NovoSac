@@ -186,3 +186,20 @@ body {
     scrollbar-color: #f8f9fa #f69209;
 }
 
+
+
+#info-area{
+    display: none;
+    width: 80vw;
+    margin: auto;
+}
+
+#info-area p {
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.custom-card {
+    margin: 0 70px; /* Adicione ou ajuste a margem conforme necessário */
+    width: 100%;
+}
