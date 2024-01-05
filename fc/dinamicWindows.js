@@ -70,7 +70,7 @@ function mudar(cursoe) {
 function voltar(){
     let infoArea = document.getElementById('info-area');
     let teamArea = document.getElementById('team-area');
-
+    //
     infoArea.style.display = '';
     teamArea.style.display = '';
 }
