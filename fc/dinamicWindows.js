@@ -49,6 +49,9 @@ function mudar(cursoe) {
 
     for (let i = 0; i < cursos.length; i++) {
         if (cursos[i].curso === cursoe) {
+            for (let card of cards) {
+                card.style.display = '';
+            }
             if (cursoe !== 'Extensivo' && cursoe !== 'Terceirão') {
                 for (let card of cards) {
                     card.style.display = 'none';
@@ -58,7 +61,7 @@ function mudar(cursoe) {
             teamArea.style.display = 'none';
             infoTitle.innerHTML = cursoe;
             infoOne.innerHTML = cursos[i].info;
-            infoTwo.innerHTML = cursos[i].info2;
+            infoTwo.innerHTML = cursos[i].unidades;
         }
     }
 }
@@ -69,5 +72,5 @@ function voltar(){
     let teamArea = document.getElementById('team-area');
 
     infoArea.style.display = '';
-            teamArea.style.display = '';
+    teamArea.style.display = '';
 }

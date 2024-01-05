@@ -167,28 +167,29 @@ header, .navbar{
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #f69209; /* Cor de fundo da barra de rolagem (mesma cor do header) */
+    background-color: #ffffff; /* Cor de fundo da barra de rolagem (mesma cor do header) */
+    border: 1px solid #fff;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #f8f9fa; /* Cor da alça da barra de rolagem (cor de destaque) */
+    background-color: #f69209; /* Cor da alça da barra de rolagem (cor de destaque) */
     border-radius: 6px;
     
     /* Altura da alça da barra de rolagem */
-    height: 80px;
+    height: 2vh;
     
     /* Posicionando a alça no centro da trilha */
     margin-top: -40px; /* Metade da altura da alça (negativo) */
     
     /* Adicionando uma borda cinza à alça */
-    border: 2px solid #80808063;
+    border: 1px solid #ffffff;
 }
 
 /* Estilizando a barra de rolagem no Firefox */
 /* Nota: A personalização no Firefox é mais limitada */
 /* Certifique-se de que a cor de fundo do contêiner principal seja definida para ver a cor da barra de rolagem */
 body {
-    scrollbar-color: #f8f9fa #f69209;
+    scrollbar-color:  #f69209;
 }
 
 
@@ -229,4 +230,9 @@ body {
     background-color: #fff;
     color: #f69209;
     border: 2px solid #f69209;
+}
+
+
+#gerais, #secretaria, #matricula, #recepcao, #apostilaria, #financeiro, #vestibular {
+    display: none;
 }
