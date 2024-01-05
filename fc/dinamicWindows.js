@@ -30,6 +30,11 @@ function mudar(cursoe) {
             curso: "Integral",
             info: "",
             unidades: ""
+        },
+        {
+            curso: "Contra-turno",
+            info: "",
+            unidades: ""
         }
     ];
 
@@ -56,4 +61,13 @@ function mudar(cursoe) {
             infoTwo.innerHTML = cursos[i].info2;
         }
     }
+}
+
+
+function voltar(){
+    let infoArea = document.getElementById('info-area');
+    let teamArea = document.getElementById('team-area');
+
+    infoArea.style.display = '';
+            teamArea.style.display = '';
 }

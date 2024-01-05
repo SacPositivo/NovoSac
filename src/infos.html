@@ -31,22 +31,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
+                        <button class="btn-vlt" onclick="voltar()">voltar</button>
                         <h3 class="main-title text-center" id="info-title">Curso</h3>
                     </div>
                 </div>
                 <p id="info-one" class="mb-4">Conteúdo do primeiro parágrafo</p>
                 <div class="row justify-content-center">
                     <div class="col-md-3 custom-card"> <!-- Adicionei a classe custom-card para aplicar o estilo personalizado -->
-                        <div class="card">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
+                        <div class="card" onclick="mudar('Contra-turno')">
+                            <img src="../assets/cards/cont.png" alt="" class="card-img-top">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Contra turno</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 custom-card"> <!-- Adicionei a classe custom-card para aplicar o estilo personalizado -->
-                        <div class="card">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
+                        <div class="card" onclick="mudar('Integral')">
+                            <img src="../assets/cards/int.png" alt="" class="card-img-top">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Integral</h5>
                             </div>
@@ -65,7 +66,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card" onclick="mudar('Extensivo')">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
+                            <img src="../assets/cards/ext.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">EXTENSIVO</h5>
                             </div>
@@ -73,7 +74,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card" onclick="mudar('Terceirão')">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
+                            <img src="../assets/cards/ter.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">TERCEIRÃO</h5>
                             </div>
@@ -81,51 +82,59 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card" onclick="mudar('SemiExtensivo')">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
+                            <img src="../assets/cards/sext.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">SEMI EXTENSIVO</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
+                        <div class="card" onclick="mudar('SuperIntensivo')">
+                            <img src="../assets/cards/sup.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">SUPER INTENSIVO</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">SETORES</h5>
+                        <a href="secondaryPages/setores.html">
+                            <div class="card">
+                                <img src="../assets/cards/set.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">SETORES</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">SAC</h5>
+                        <a href="secondaryPages/sac.html">
+                            <div class="card">
+                                <img src="../assets/cards/sac.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">SAC</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">SITUAÇÕES</h5>
+                        <a href="secondaryPages/situacoes.html">
+                            <div class="card">
+                                <img src="../assets/cards/sit.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">SITUAÇÕES</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-3">
-                        <div class="card">
-                            <img src="../assets/boa-vista.jpg" alt="" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">TREINAMENTOS</h5>
+                        <a href="secondaryPages/treinamento.html">
+                            <div class="card">
+                                <img src="../assets/cards/tre.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">TREINAMENTOS</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
