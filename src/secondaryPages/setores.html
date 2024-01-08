@@ -27,79 +27,27 @@
         </nav>
     </header>
     <main>
-        <div id="gerais">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title text-center" id="info-title">CONTATOS GERAIS</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="secretaria">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title text-center" id="info-title">SECRETARIA</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="matricula">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title text-center" id="info-title">MATRICULA</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="recepcao">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title text-center" id="info-title">RECEPÇÃO</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="apostilaria">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title text-center" id="info-title">APOSTILARIA</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="financeiro">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title text-center" id="info-title">FINANCEIRO</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="vestibular">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title text-center" id="info-title">VESTIBULAR</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div id="contain-page">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="main-title text-center" id="info-title">SETORES</h3>
+                        <h3 class="main-title text-center" id="info-titleset">SETORES</h3>
                     </div>
                 </div>
-                <div class="row">
+                <div id="setor-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <button class="btn-vlt" onclick="voltar('setores')">voltar</button>
+                            </div>
+                        </div>
+                        <p id="info-oneset" class="mb-4 text-set">Conteúdo do primeiro parágrafo</p>
+                        <p id="info-twoset" class="mt-4 text-set">Conteúdo do segundo parágrafo</p>
+                    </div>
+                </div>
+                <div class="row" id="cards-set">
                     <div class="col-md-3">
-                        <div class="card" onclick="mudar('SuperIntensivo')">
+                        <div class="card" onclick="mudarSet('CONTATOS GERAIS')">
                             <img src="../../assets/cards/sup.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">CONTATOS GERAIS</h5>
@@ -107,7 +55,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card" onclick="mudar('SuperIntensivo')">
+                        <div class="card" onclick="mudarSet('MATRICULA')">
                             <img src="../../assets/cards/sup.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">MATRICULA</h5>
@@ -115,7 +63,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card" onclick="mudar('SuperIntensivo')">
+                        <div class="card" onclick="mudarSet('SECRETARIA')">
                             <img src="../../assets/cards/sup.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">SECRETARIA</h5>
@@ -123,7 +71,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card" onclick="mudar('SuperIntensivo')">
+                        <div class="card" onclick="mudarSet('RECEPÇÃO')">
                             <img src="../../assets/cards/sup.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">RECEPÇÃO</h5>
@@ -131,7 +79,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card" onclick="mudar('SuperIntensivo')">
+                        <div class="card" onclick="mudarSet('APOSTILARIA')">
                             <img src="../../assets/cards/sup.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">APOSTILARIA</h5>
@@ -139,7 +87,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card" onclick="mudar('SuperIntensivo')">
+                        <div class="card" onclick="mudarSet('FINANCEIRO')">
                             <img src="../../assets/cards/sup.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">FINANCEIRO</h5>
@@ -147,7 +95,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card" onclick="mudar('SuperIntensivo')">
+                        <div class="card" onclick="mudarSet('VESTIBULAR')">
                             <img src="../../assets/cards/sup.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">VESTIBULAR</h5>

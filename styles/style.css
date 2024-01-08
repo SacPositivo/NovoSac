@@ -194,7 +194,7 @@ body {
 
 
 
-#info-area{
+#info-area, #setor-area{
     display: none;
     width: 80vw;
     margin: auto;
@@ -233,6 +233,6 @@ body {
 }
 
 
-#gerais, #secretaria, #matricula, #recepcao, #apostilaria, #financeiro, #vestibular {
-    display: none;
+.text-set{
+    font-size: 20px;
 }
